@@ -1,5 +1,8 @@
 var React = require('react'),
-		expect = require('expect');
+		ReactDOM = require('react-dom'),
+		expect = require('expect'),
+		$ = require('jQuery'),
+		TestUtils = require('react-addons-test-utils');
 
 var TodoItem = require('TodoItem');
 
