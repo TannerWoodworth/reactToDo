@@ -1,5 +1,5 @@
-var React = require('react');
-var TodoItem = require('TodoItem');
+var React = require('react'),
+		TodoItem = require('TodoItem');
 
 var TodoList = React.createClass({
 	render: function() {
