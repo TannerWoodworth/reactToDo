@@ -1,2 +1,8 @@
 // Colors
-$grey: #333333;
+$color-gray: 									#333333;
+$color-light-gray: 						#fafafa;
+
+
+// Custom / Specific Colors
+
+$light-gray-border: 		darken($color-light-gray, 10%);

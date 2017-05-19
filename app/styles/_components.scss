@@ -1,0 +1,67 @@
+.page-title {
+	text-align: center;
+	padding: 2rem 0;
+	margin: 0;
+}
+
+// Containers
+
+.container {
+	background: $color-light-gray;
+	border: solid 1px $light-gray-border;
+	border-radius: 5px;
+	padding: 0;
+	margin-bottom: 2rem;
+}
+
+.container--search {
+	border-bottom: solid 1px $light-gray-border;
+	padding: 1rem;
+
+	label {
+		cursor: pointer;
+		font-size: 1rem;
+	}
+
+	> :last-child {
+		align-items : center;
+		display: flex;
+	}
+}
+
+.container--add-todo {
+	padding: 1rem 1rem 0 1rem;
+	border-top: solid 1px $light-gray-border;
+}
+
+// Todos / Tasks
+
+.todo {
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	padding: 1rem;
+	transition: background 300ms ease;
+
+	&.-completed {
+		color: $dark-gray;
+		text-decoration: line-through;
+	}
+
+	&.-subtext {
+		color: #999;
+		padding: 0;
+	}
+
+	p, input {
+		margin: 0
+	}
+
+	> :first-child {
+		margin-right: 1rem;
+	}
+
+	&:hover {
+		background: #f0f0f0;
+	}
+}

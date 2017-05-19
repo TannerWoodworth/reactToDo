@@ -5,4 +5,6 @@
 @import "foundation";
 @include foundation-everything;
 
-// Components
+// Custom SCSS
+@import "components";
+@import "elements";
