@@ -1,9 +1,9 @@
 var React = require('react'),
 		uuid = require('node-uuid'),
-		moment = require('moment'),
+		moment = require('moment');
 
-		TodoList = require('TodoList'),
-		AddTodo = require('AddTodo'),
+import TodoList from 'TodoList'
+var AddTodo = require('AddTodo'),
 		TodoSearch = require('TodoSearch'),
 		TodoAPI = require('TodoAPI');
 

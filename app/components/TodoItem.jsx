@@ -3,7 +3,7 @@ var React = require('react'),
 		moment = require('moment'),
 		actions = require('actions');
 
-var TodoItem = React.createClass({
+export var TodoItem = React.createClass({
 
 	render: function() {
 		var {text, completed, id, createdAt, completedAt, dispatch} = this.props,
@@ -37,4 +37,4 @@ var TodoItem = React.createClass({
 	}
 });
 
-module.exports = connect()(TodoItem);
+export default connect()(TodoItem);
