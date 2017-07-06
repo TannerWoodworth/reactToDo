@@ -65,3 +65,23 @@
 		background: #f0f0f0;
 	}
 }
+
+// login
+
+.callout-auth {
+	background-color: $color-light-gray;
+	border: 1px solid $light-gray-border;
+	padding: 2rem;
+	text-align: center;
+	h2, p {
+		margin-bottom: 1rem;
+	}
+}
+
+// page actions / nav
+
+.page-actions {
+	display: flex;
+	justify-content: flex-end;
+	padding: 1rem 2rem 0 0;
+}
